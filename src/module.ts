@@ -15,7 +15,7 @@ export default defineNuxtModule({
   async setup(options, nuxt) {
     const { resolve } = createResolver(import.meta.url)
 
-    nuxt.options.alias['owd-app-todo'] = resolve(__dirname, './runtime')
+    nuxt.options.alias['owd-app-todo'] = resolve('./runtime')
 
     {
       // add components

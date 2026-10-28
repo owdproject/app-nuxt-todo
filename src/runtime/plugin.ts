@@ -1,5 +1,5 @@
 import { defineNuxtPlugin } from 'nuxt/app'
-import { defineDesktopApp } from 'nuxt-desktop/kit/defineDesktopApp'
+import { defineDesktopApp } from '@owdproject/nuxt/kit/defineDesktopApp'
 import configAppTodo from './app.config'
 import './stores/storeTodo'
 

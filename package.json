@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/app-todo",
-  "version": "0.2.0",
+  "version": "4.0.0-alpha.0",
   "description": "To-do App for your Open Web Desktop client",
   "keywords": [
     "owd-client",
@@ -45,7 +45,7 @@
     "@owdproject/kit-tailwind": "workspace:*",
     "@owdproject/kit-primevue": "workspace:*",
     "nanoid": "^5.1.11",
-    "nuxt-desktop": "workspace:*"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
@@ -57,6 +57,6 @@
   },
   "peerDependencies": {
     "@owdproject/core": ">=4.0.0-alpha.0",
-    "nuxt-desktop": ">=1.0.0"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   }
 }
