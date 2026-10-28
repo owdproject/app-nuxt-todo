@@ -26,7 +26,7 @@ export default {
     },
   },
   commands: {
-    todo: (app: IApplicationController) => {
+    todo: (app: any) => {
       const existing = app.getFirstWindowByModel('main')
       if (existing) {
         existing.actions.setActive(true)
