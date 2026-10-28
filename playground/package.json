@@ -8,10 +8,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/app-todo": "workspace:*",
-    "@owdproject/nuxt-persistence-pinia": "workspace:*",
-    "@owdproject/theme-nova": "workspace:*",
+    "@owdproject/nuxt-persistence-pinia": "^4.0.0-alpha.3",
+    "@owdproject/theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4"
   }
 }
