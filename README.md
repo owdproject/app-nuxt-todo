@@ -27,7 +27,7 @@ Add the app to your `desktop.config.ts`:
 ```ts
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-nuxt-todo'
+    '@owdproject/nuxt-app-todo'
   ]
 })
 ```
