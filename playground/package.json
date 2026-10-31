@@ -12,6 +12,10 @@
     "@owdproject/nuxt-app-todo": "workspace:*",
     "@owdproject/nuxt-module-pinia-persistence": "^4.0.0-alpha.3",
     "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
-    "nuxt": "^4.4.4"
+    "jiti": "^2.6.1",
+    "nuxt": "^4.4.4",
+    "primevue": "^4.5.5",
+    "tailwindcss": "^3.4.19",
+    "vue-i18n": "^11.0.0"
   }
 }
